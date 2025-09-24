@@ -13,7 +13,7 @@ Plug-in PCB module for ESP32 monitoring pressure/temp (BMP280) and light (LDR). 
 - Female Headers (2x1x19): C124395
 
 ## ESP32 Pin Mapping (Via Headers)
-- BMP280: VCC=FH1-1 (3V), GND=FH1-19, SDA=FH2-4 (D4/GPIO21), SCL=FH2-3 (D5/GPIO22)
-- LDR: Analog=FH1-5 (A1/GPIO34)
-- Yellow LED: D1=FH1-16 (GPIO2)
-- Red LED: D2=FH1-18 (GPIO4)
+- BMP280: VCC=FH6-1 (3V), GND=FH1-19, SDA=FH7-4 (D4/GPIO21), SCL=FH7-3 (D5/GPIO22)
+- LDR: Analog=FH6-5 (A1/GPIO34)
+- Yellow LED: D1=FH4-16 (GPIO2)
+- Red LED: D2=FH4-18 (GPIO4)
